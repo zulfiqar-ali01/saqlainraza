@@ -6,34 +6,34 @@ import { BrainCircuit, Database, Workflow, Code2, Sparkles, Mic2 } from "lucide-
 export default function ExpertiseSection() {
   const expertise = [
     {
-      title: "Fine-tuning ML Models",
-      icon: <BrainCircuit size={24} className="text-purple-500" />,
-      description: "Customizing and fine-tuning foundations models for specialized business applications and proprietary data.",
+      title: "Data Warehousing & Engineering",
+      icon: <Database size={24} className="text-purple-500" />,
+      description: "Designing and implementing scalable data warehouses and ETL pipelines for efficient data collection, storage, and retrieval.",
     },
     {
-      title: "AI Agents & Custom Workflows",
-      icon: <Workflow size={24} className="text-blue-500" />,
-      description: "Building autonomous agents using LLMs to solve multi-step reasoning tasks and automate business logic.",
+      title: "AI & Machine Learning Analytics",
+      icon: <BrainCircuit size={24} className="text-blue-500" />,
+      description: "Building predictive models, statistical analyses, and ML solutions for data-driven decision support and insights.",
     },
     {
-      title: "Speech-to-Text (Whisper)",
-      icon: <Mic2 size={24} className="text-cyan-500" />,
-      description: "Implementing advanced Whisper models for high-accuracy transcriptions and audio processing pipelines.",
+      title: "Data Visualization & Dashboards",
+      icon: <Sparkles size={24} className="text-cyan-500" />,
+      description: "Creating interactive dashboards and visualizations that transform complex data into actionable management insights.",
     },
     {
-      title: "Computer Vision & Facial Rec",
-      icon: <Sparkles size={24} className="text-indigo-500" />,
-      description: "Developing facial recognition systems and deploying computer vision models for real-time inference.",
+      title: "Policy Evaluation & Assessment",
+      icon: <Workflow size={24} className="text-indigo-500" />,
+      description: "Designing research methodologies and evaluation frameworks for policy impact assessment and effectiveness measurement.",
     },
     {
-      title: "NLP & Topic Modeling",
+      title: "Public Health Data Systems",
       icon: <Code2 size={24} className="text-teal-500" />,
-      description: "Building natural language processing pipelines for sentiment analysis, document classification, and entity extraction.",
+      description: "Developing specialized data systems for public health monitoring, surveillance, and epidemiological analytics.",
     },
     {
-      title: "AI System Integration",
-      icon: <Database size={24} className="text-orange-500" />,
-      description: "Architecting end-to-end solutions that seamlessly integrate ML models with scalable backend databases and frontends.",
+      title: "Predictive Analytics & Modeling",
+      icon: <Mic2 size={24} className="text-orange-500" />,
+      description: "Applying statistical modeling and causal inference techniques to forecast trends and support decision-making.",
     },
   ];
 
@@ -66,7 +66,7 @@ export default function ExpertiseSection() {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-bold tracking-tight mb-4"
           >
-            AI Engineering <span className="text-blue-600 dark:text-blue-400">Expertise</span>
+            Data Science & AI <span className="text-blue-600 dark:text-blue-400">Expertise</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -75,7 +75,7 @@ export default function ExpertiseSection() {
             transition={{ delay: 0.1 }}
             className="text-neutral-600 dark:text-neutral-400 text-lg max-w-2xl"
           >
-            Solving complex problems with state-of-the-art machine learning algorithms and robust data architectures.
+            Transforming data into actionable insights through advanced analytics, AI solutions, and evidence-based decision support systems.
           </motion.p>
         </div>
 

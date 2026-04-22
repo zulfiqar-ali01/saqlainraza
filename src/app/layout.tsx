@@ -18,9 +18,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zulfiqar-ali-ai.vercel.app"),
-  title: "Zulfiqar Ali | AI Engineer | Data Consultant | BI Developer",
+  title: "Dr. Saqlain Raza | Data Science & AI Consulting",
   description:
-    "AI Engineer specializing in automation, machine learning, data pipelines, AI agents, and analytics dashboards across healthcare and enterprise systems.",
+    "Data scientist specializing in data warehousing, visualization, developing data products for management, policy assessment & evaluation, and AI-enabled analytics for data-driven decision support.",
   keywords: [
     "AI Engineer",
     "Data Scientist",
@@ -33,17 +33,17 @@ export const metadata: Metadata = {
     "Pakistan AI Engineer",
   ],
   openGraph: {
-    title: "Zulfiqar Ali | AI Engineer | Data Consultant | BI Developer",
+    title: "Dr. Saqlain Raza | Data Science & AI Consulting",
     description:
-      "AI Engineer specializing in automation, machine learning, data pipelines, AI agents, and analytics dashboards across healthcare and enterprise systems.",
+      "Data scientist specializing in data warehousing, visualization, developing data products for management, policy assessment & evaluation, and AI-enabled analytics for data-driven decision support.",
     url: "https://zulfiqar-ali-ai.vercel.app",
-    siteName: "Zulfiqar Ali Portfolio",
+    siteName: "Dr. Saqlain Raza - Data Science & AI Consulting",
     images: [
       {
         url: "/profile.png",
         width: 800,
         height: 800,
-        alt: "Zulfiqar Ali - AI Engineer Profile Image",
+        alt: "Dr. Saqlain Raza - Data Scientist Profile Image",
       },
     ],
     type: "website",
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Zulfiqar Ali",
-  jobTitle: "AI Engineer | Data Consultant",
+  name: "Dr. Saqlain Raza",
+  jobTitle: "Data Scientist | AI Consultant",
   url: "https://zulfiqar-ali-ai.vercel.app",
   image: "https://zulfiqar-ali-ai.vercel.app/profile.png",
   address: {

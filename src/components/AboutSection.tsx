@@ -6,10 +6,10 @@ import Image from "next/image";
 
 export default function AboutSection() {
   const highlights = [
-    "AI Engineering",
-    "Data Analytics",
-    "Automation Systems",
-    "BI Dashboards",
+    "Data Warehousing",
+    "AI & Machine Learning",
+    "Data Visualization",
+    "Policy Evaluation",
   ];
 
   return (
@@ -26,10 +26,10 @@ export default function AboutSection() {
               About <span className="text-blue-600 dark:text-blue-400">Me</span>
             </h2>
             <p className="text-neutral-600 dark:text-neutral-300 text-lg leading-relaxed mb-6">
-              With extensive experience working alongside international clients across healthcare, government, and enterprise domains, I specialize in building end-to-end data solutions. My goal is to bridge the gap between complex AI technologies and practical business needs.
+              I hold a doctorate in Applied Statistics and a Master's in Public Health degree from French universities.
             </p>
             <p className="text-neutral-600 dark:text-neutral-300 text-lg leading-relaxed mb-8">
-              Whether it&apos;s deploying conversational AI, architecting data pipelines, or designing executive BI dashboards, I bring production-level engineering quality to every project.
+              I bring a blend of Statistics, Data Science, AI, Public Health, and policy-related extensive experience in the fields of data collection and warehousing, developing data products for management, policy assessment & evaluation, designing research, and statistical modelling & predictive analytics through causality.
             </p>
 
             <div className="grid grid-cols-2 gap-4">
@@ -54,8 +54,8 @@ export default function AboutSection() {
               {/* Reset inner rotation so the image itself is stable */}
               <div className="relative w-full h-full rounded-full overflow-hidden z-10 animate-spin-slow-reverse border-4 border-transparent">
                 <Image 
-                  src="/profile.png" 
-                  alt="Zulfiqar Ali" 
+                  src="/profile-pic.png" 
+                  alt="Dr. Saqlain Raza" 
                   fill
                   sizes="(max-width: 768px) 16rem, 20rem"
                   className="object-cover"
