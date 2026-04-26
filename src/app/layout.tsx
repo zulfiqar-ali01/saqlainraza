@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://zulfiqar-ali-ai.vercel.app"),
   title: "Dr. Saqlain Raza | Public Health Consulting & Data Science",
   description:
-    "Public health consultant and statistician specializing in survey design, policy evaluation, data analytics, and AI-enabled decision support systems for government and development sectors.",
+    "Public health consultant and statistician specializing in survey design, policy analysis, data analytics, and AI-enabled decision support systems for government and development sectors.",
   keywords: [
     "AI Engineer",
     "Data Scientist",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dr. Saqlain Raza | Public Health Consulting & Data Science",
     description:
-      "Public health consultant and statistician specializing in survey design, policy evaluation, data analytics, and AI-enabled decision support systems for government and development sectors.",
+      "Public health consultant and statistician specializing in survey design, policy analysis, data analytics, and AI-enabled decision support systems for government and development sectors.",
     url: "https://zulfiqar-ali-ai.vercel.app",
     siteName: "Dr. Saqlain Raza - Public Health Consulting & Data Science",
     images: [

@@ -106,7 +106,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto mb-10 leading-relaxed font-light"
         >
-          Public health consultant and statistician specializing in survey design, policy evaluation, data analytics, and AI-enabled decision support systems for government and development sectors.
+          Public health consultant and statistician specializing in survey design, policy analysis, data analytics, and AI-enabled decision support systems for government and development sectors.
         </motion.p>
 
         <motion.div
@@ -139,7 +139,7 @@ export default function HeroSection() {
               <span>Email</span>
             </a>
             <a
-              href="https://www.linkedin.com/search/results/all/?keywords=Saqlain%20Raza"
+              href="https://www.linkedin.com/in/saqlain-raza-phd-645a11b/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-[#0A66C2] px-4 py-2 text-sm font-medium text-white hover:bg-[#0858a6] hover:scale-105 transition-transform shadow-sm"

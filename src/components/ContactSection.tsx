@@ -48,7 +48,7 @@ export default function ContactSection() {
               Let&apos;s build an <span className="text-blue-600 dark:text-blue-400">AI-enabled Ecosystem</span>
             </h2>
             <p className="text-neutral-600 dark:text-neutral-400 text-lg mb-8 leading-relaxed">
-              Available for consulting on data science, AI solutions, data warehousing, policy evaluation, and decision support systems. Let&apos;s discuss how data-driven insights can transform your organization.
+              Available for consulting on data science, AI solutions, data warehousing, policy analysis, and decision support systems. Let&apos;s discuss how data-driven insights can transform your organization.
             </p>
 
             <div className="flex flex-col gap-6 mb-12">
@@ -65,7 +65,7 @@ export default function ContactSection() {
                 <span className="font-medium">+966533475986</span>
               </a>
               <a
-                href="https://www.linkedin.com/search/results/all/?keywords=Saqlain%20Raza"
+                href="https://www.linkedin.com/in/saqlain-raza-phd-645a11b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 text-neutral-600 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors group"

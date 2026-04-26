@@ -21,9 +21,9 @@ export default function ExpertiseSection() {
       description: "Creating interactive dashboards and visualizations that transform complex data into actionable management insights.",
     },
     {
-      title: "Policy Evaluation & Assessment",
+      title: "Research Methods in Health",
       icon: <Workflow size={24} className="text-indigo-500" />,
-      description: "Designing research methodologies and evaluation frameworks for policy impact assessment and effectiveness measurement.",
+      description: "Designing research methodologies, survey frameworks, and evaluation approaches for evidence-based health policy and program assessment.",
     },
     {
       title: "Public Health Data Systems",

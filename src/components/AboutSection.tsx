@@ -9,7 +9,7 @@ export default function AboutSection() {
     "Data Warehousing",
     "AI & Machine Learning",
     "Statistics & Survey",
-    "Policy Evaluation",
+    "Policy Analysis",
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function AboutSection() {
               I obtained a doctorate in Applied Statistics and a Master's in Public Health degree from French universities.
             </p>
             <p className="text-neutral-600 dark:text-neutral-300 text-lg leading-relaxed mb-8">
-              I bring a blend of Statistics, Data Science, AI, Public Health, and policy-related extensive experience in the fields of data collection and warehousing, developing data products for management, policy assessment & evaluation, designing research, and statistical modelling & predictive analytics through causality.
+              I bring a blend of Statistics, Data Science, AI, Public Health, and policy-related extensive experience in the fields of data collection and warehousing, developing data products for management, policy assessment & analysis, designing research, and statistical modelling & predictive analytics through causality.
             </p>
 
             <div className="grid grid-cols-2 gap-4">
