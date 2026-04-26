@@ -106,7 +106,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto mb-10 leading-relaxed font-light"
         >
-          Data scientist specializing in data warehousing, visualization, developing data products for management, policy assessment & evaluation, and AI-enabled analytics for data-driven decision support.
+          Public health consultant and statistician specializing in survey design, policy evaluation, data analytics, and AI-enabled decision support systems for government and development sectors.
         </motion.p>
 
         <motion.div

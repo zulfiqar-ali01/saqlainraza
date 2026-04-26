@@ -18,9 +18,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zulfiqar-ali-ai.vercel.app"),
-  title: "Dr. Saqlain Raza | Data Science & AI Consulting",
+  title: "Dr. Saqlain Raza | Public Health Consulting & Data Science",
   description:
-    "Data scientist specializing in data warehousing, visualization, developing data products for management, policy assessment & evaluation, and AI-enabled analytics for data-driven decision support.",
+    "Public health consultant and statistician specializing in survey design, policy evaluation, data analytics, and AI-enabled decision support systems for government and development sectors.",
   keywords: [
     "AI Engineer",
     "Data Scientist",
@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     "Pakistan AI Engineer",
   ],
   openGraph: {
-    title: "Dr. Saqlain Raza | Data Science & AI Consulting",
+    title: "Dr. Saqlain Raza | Public Health Consulting & Data Science",
     description:
-      "Data scientist specializing in data warehousing, visualization, developing data products for management, policy assessment & evaluation, and AI-enabled analytics for data-driven decision support.",
+      "Public health consultant and statistician specializing in survey design, policy evaluation, data analytics, and AI-enabled decision support systems for government and development sectors.",
     url: "https://zulfiqar-ali-ai.vercel.app",
-    siteName: "Dr. Saqlain Raza - Data Science & AI Consulting",
+    siteName: "Dr. Saqlain Raza - Public Health Consulting & Data Science",
     images: [
       {
         url: "/profile.png",

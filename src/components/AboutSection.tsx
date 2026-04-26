@@ -8,7 +8,7 @@ export default function AboutSection() {
   const highlights = [
     "Data Warehousing",
     "AI & Machine Learning",
-    "Data Visualization",
+    "Statistics & Survey",
     "Policy Evaluation",
   ];
 
@@ -26,7 +26,7 @@ export default function AboutSection() {
               About <span className="text-blue-600 dark:text-blue-400">Me</span>
             </h2>
             <p className="text-neutral-600 dark:text-neutral-300 text-lg leading-relaxed mb-6">
-              I hold a doctorate in Applied Statistics and a Master's in Public Health degree from French universities.
+              I obtained a doctorate in Applied Statistics and a Master's in Public Health degree from French universities.
             </p>
             <p className="text-neutral-600 dark:text-neutral-300 text-lg leading-relaxed mb-8">
               I bring a blend of Statistics, Data Science, AI, Public Health, and policy-related extensive experience in the fields of data collection and warehousing, developing data products for management, policy assessment & evaluation, designing research, and statistical modelling & predictive analytics through causality.
