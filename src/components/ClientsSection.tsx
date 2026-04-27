@@ -35,14 +35,14 @@ export default function ClientsSection() {
           </p>
         </div>
 
-        {/* Gradient fade edges */}
+        {/* Gradient edges */}
         <div className="relative">
-          <div className="absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-white dark:from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-white dark:from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
+          <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-white dark:from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-white dark:from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
 
           {/* Scrolling logos */}
           <motion.div
-            className="flex items-center gap-12"
+            className="flex items-center gap-16"
             animate={{ x: ["0%", "-50%"] }}
             transition={{
               repeat: Infinity,
@@ -55,17 +55,17 @@ export default function ClientsSection() {
                 key={index}
                 className="flex-shrink-0 flex items-center justify-center"
               >
-                {/* Rounded container */}
-                <div className="h-14 w-28 rounded-xl overflow-hidden flex items-center justify-center 
+                {/* Bigger rounded container */}
+                <div className="h-20 w-40 rounded-2xl overflow-hidden flex items-center justify-center 
                                 bg-white dark:bg-[#111] border border-neutral-200 dark:border-neutral-800
                                 shadow-sm hover:shadow-md transition duration-300">
                   
                   <Image
                     src={client.logo}
                     alt={client.name}
-                    width={100}
-                    height={50}
-                    className="h-10 w-auto object-contain transition duration-300 hover:scale-105"
+                    width={200}
+                    height={100}
+                    className="h-16 w-auto object-contain transition duration-300 hover:scale-105"
                   />
 
                 </div>
