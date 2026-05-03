@@ -18,32 +18,32 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zulfiqar-ali-ai.vercel.app"),
-  title: "Dr. Saqlain Raza | Public Health Consulting & Data Science",
+  title: "Tech Data Axiom | Public Health Consulting & Data Science",
   description:
-    "Public health consultant and statistician specializing in survey design, policy analysis, data analytics, and AI-enabled decision support systems for government and development sectors.",
+    "Tech Data Axiom — a consulting firm specializing in survey design, policy analysis, data analytics, and AI-enabled decision support systems for government and development sectors.",
   keywords: [
-    "AI Engineer",
-    "Data Scientist",
+    "Tech Data Axiom",
+    "Data Science Consulting",
+    "Public Health Analytics",
     "Machine Learning",
-    "NLP",
-    "Computer Vision",
-    "AI Agents",
+    "AI Consulting",
+    "Survey Design",
+    "Policy Analysis",
     "Power BI",
-    "Automation",
-    "Pakistan AI Engineer",
+    "Data Warehousing",
   ],
   openGraph: {
-    title: "Dr. Saqlain Raza | Public Health Consulting & Data Science",
+    title: "Tech Data Axiom | Public Health Consulting & Data Science",
     description:
-      "Public health consultant and statistician specializing in survey design, policy analysis, data analytics, and AI-enabled decision support systems for government and development sectors.",
+      "Tech Data Axiom — a consulting firm specializing in survey design, policy analysis, data analytics, and AI-enabled decision support systems for government and development sectors.",
     url: "https://zulfiqar-ali-ai.vercel.app",
-    siteName: "Dr. Saqlain Raza - Public Health Consulting & Data Science",
+    siteName: "Tech Data Axiom",
     images: [
       {
         url: "/profile.png",
         width: 800,
         height: 800,
-        alt: "Dr. Saqlain Raza - Data Scientist Profile Image",
+        alt: "Tech Data Axiom - Data Science & AI Consulting",
       },
     ],
     type: "website",
@@ -52,25 +52,13 @@ export const metadata: Metadata = {
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Dr. Saqlain Raza",
-  jobTitle: "Data Scientist | AI Consultant",
+  "@type": "Organization",
+  name: "Tech Data Axiom",
+  description: "A consulting firm specializing in data science, AI solutions, public health analytics, and decision support systems.",
   url: "https://zulfiqar-ali-ai.vercel.app",
-  image: "https://zulfiqar-ali-ai.vercel.app/profile.png",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Skardu",
-    addressRegion: "Gilgit Baltistan",
-    addressCountry: "Pakistan",
-  },
+  logo: "https://zulfiqar-ali-ai.vercel.app/profile.png",
   sameAs: [
-    "mailto:zulfiqarcomsats@gmail.com",
-    "https://www.linkedin.com/in/zulfiqar-ali01/",
-    "https://github.com/zulfiqar-ali01",
-    "https://twitter.com/Zulfiqa08762401",
-    "https://www.facebook.com/Zulfibalti/",
-    "https://www.instagram.com/zulfibalti96/?hl=en",
-    "https://www.youtube.com/@InnvoAI",
+    "https://www.linkedin.com/company/development-thorough-data/",
   ],
   knowsAbout: [
     "Machine Learning",

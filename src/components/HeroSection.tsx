@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { useEffect, useState } from "react";
 
 function LinkedInIcon(props: React.SVGProps<SVGSVGElement>) {
@@ -139,13 +139,13 @@ export default function HeroSection() {
               <span>Email</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/saqlain-raza-phd-645a11b/"
+              href="https://www.linkedin.com/company/development-thorough-data/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-[#0A66C2] px-4 py-2 text-sm font-medium text-white hover:bg-[#0858a6] hover:scale-105 transition-transform shadow-sm"
             >
               <LinkedInIcon className="h-4 w-4" />
-              <span>LinkedIn</span>
+              <span>Official Company Page</span>
             </a>
           </div>
         </motion.div>

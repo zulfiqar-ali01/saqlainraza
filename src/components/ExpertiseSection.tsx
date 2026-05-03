@@ -39,20 +39,20 @@ export default function ExpertiseSection() {
 
   const skills = [
     {
-      category: "AI & Machine Learning",
-      items: ["Python", "PyTorch", "TensorFlow", "NLP", "Computer Vision", "Whisper", "LLMs"],
+      category: "Data Science & Analytics",
+      items: ["Data Science", "Data Wrangling", "Data Cleaning & Analysis", "Data Visualization", "Data Warehousing", "KPI Management", "Data Governance", "Automation"],
     },
     {
-      category: "Data & BI",
-      items: ["Power BI", "SQL", "Excel", "Data Modeling", "ETL Pipelines"],
+      category: "Statistics & Machine Learning",
+      items: ["Machine Learning & Statistics", "Descriptive Statistics", "Inferential Statistics", "Biostatistics", "Statistical Analysis Frameworks"],
     },
     {
-      category: "Automation",
-      items: ["n8n", "Power Automate", "API Integrations"],
+      category: "Epidemiology & Public Health",
+      items: ["Epidemiology", "Causal Inference & Research Methods", "Public Health Data Systems"],
     },
     {
-      category: "Frontend",
-      items: ["React", "Next.js", "Tailwind CSS"],
+      category: "Research & Policy",
+      items: ["Research Design", "Survey Design", "Policy Analysis", "Evidence-Based Decision Support"],
     },
   ];
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MessageCircle, FileText, Send, MapPin } from "lucide-react";
+import { Mail, MessageCircle, Send, MapPin } from "lucide-react";
 import { useState } from "react";
 
 function LinkedInIcon(props: React.SVGProps<SVGSVGElement>) {
@@ -23,16 +23,35 @@ function LinkedInIcon(props: React.SVGProps<SVGSVGElement>) {
 export default function ContactSection() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
+    setStatus("idle");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+
+      if (!res.ok) {
+        setErrorMessage(data.error || "Something went wrong. Please try again.");
+        setStatus("error");
+      } else {
+        setStatus("success");
+        setFormData({ name: "", email: "", message: "" });
+      }
+    } catch {
+      setErrorMessage("Network error. Please check your connection and try again.");
+      setStatus("error");
+    } finally {
       setIsSubmitting(false);
-      setFormData({ name: "", email: "", message: "" });
-      alert("Message sent successfully!");
-    }, 1500);
+    }
   };
 
   return (
@@ -65,7 +84,7 @@ export default function ContactSection() {
                 <span className="font-medium">+966533475986</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/saqlain-raza-phd-645a11b/"
+                href="https://www.linkedin.com/company/development-thorough-data/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 text-neutral-600 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors group"
@@ -73,7 +92,10 @@ export default function ContactSection() {
                 <div className="p-3 bg-white dark:bg-[#111] rounded-full shadow-sm group-hover:scale-110 transition-transform">
                   <LinkedInIcon className="h-5 w-5" />
                 </div>
-                <span className="font-medium">LinkedIn</span>
+                <div className="flex flex-col">
+                  <span className="font-medium">LinkedIn</span>
+                  <span className="text-xs text-neutral-400 dark:text-neutral-500">Official Company Page</span>
+                </div>
               </a>
               <div className="flex items-center gap-4 text-neutral-600 dark:text-neutral-300">
                 <div className="p-3 bg-white dark:bg-[#111] rounded-full shadow-sm">
@@ -126,6 +148,16 @@ export default function ContactSection() {
                   placeholder="Tell me about your project..."
                 />
               </div>
+              {status === "success" && (
+                <p className="text-sm font-medium text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-800 rounded-xl px-4 py-3">
+                  Your message has been sent successfully. I&apos;ll be in touch soon.
+                </p>
+              )}
+              {status === "error" && (
+                <p className="text-sm font-medium text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
+                  {errorMessage}
+                </p>
+              )}
               <button
                 type="submit"
                 disabled={isSubmitting}
@@ -138,6 +170,15 @@ export default function ContactSection() {
                   </>
                 )}
               </button>
+              <a
+                href="https://wa.me/966533475986"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-4 border border-green-500 dark:border-green-600 text-green-600 dark:text-green-400 rounded-xl font-bold text-lg hover:bg-green-50 dark:hover:bg-green-950/30 transition-colors flex items-center justify-center gap-2"
+              >
+                <MessageCircle size={18} />
+                <span>Chat on WhatsApp</span>
+              </a>
             </form>
           </motion.div>
         </div>
